@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="nav">
         <p>ciao</p>
         <img src="../../public/images/earth.png" />
-        <h3>My travel journal</h3>
+        <h3>My travel</h3>
       </div>
     </>
   );
