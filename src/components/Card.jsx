@@ -7,7 +7,10 @@ export default function Card(props) {
         <img src={props.imageUrl} />
         <div className="container-head">
           <div className="container-body">
-            <img src="../../public/images/location-dot-solid.svg" alt="" />
+            <img
+              src="/public/assets/location-dot-solid.svg"
+              alt="location dot"
+            />
 
             <h4>{props.location}</h4>
             <a href={props.googleMapsUrl}>View on Google Maps</a>
