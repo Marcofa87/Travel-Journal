@@ -4,9 +4,8 @@ export default function Navbar() {
   return (
     <>
       <div className="nav">
-        <p>ciao</p>
-        <img src="../../public/images/Fill 213.png" />
-        <h3>My travel</h3>
+        <img src="../../public/images/earth.png" />
+        <h3>My travel Journal</h3>
       </div>
     </>
   );
