@@ -1,5 +1,5 @@
 import React from "react";
-
+import lacationDot from "../../public/assets/location-dot-solid.svg";
 export default function Card(props) {
   return (
     <>
@@ -7,10 +7,7 @@ export default function Card(props) {
         <img src={props.imageUrl} />
         <div className="container-head">
           <div className="container-body">
-            <img
-              src="/public/assets/location-dot-solid.svg"
-              alt="location dot"
-            />
+            <img src={lacationDot} alt="location dot" />
 
             <h4>{props.location}</h4>
             <a href={props.googleMapsUrl}>View on Google Maps</a>
