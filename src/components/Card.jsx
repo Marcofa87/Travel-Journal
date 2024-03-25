@@ -9,7 +9,7 @@ export default function Card(props) {
           <div className="container-body">
             <img src={lacationDot} alt="location dot" />
 
-            <h4>{props.location}</h4>
+            <h3>{props.location}</h3>
             <a href={props.googleMapsUrl}>View on Google Maps</a>
           </div>
           <div className="container-foot">

@@ -64,10 +64,12 @@ h2 {
   height: 24px;
 }
 
-.container-body h4 {
+.container-body h3 {
   margin-right: 20px;
   font-weight: 400;
   letter-spacing: 1.741px;
+  padding: 6px;
+  font-weight: bold;
 }
 
 .container-body {
